@@ -11,9 +11,32 @@
 	
 	<section class="hero" id="hero">
 
+		<div class="modal">
+			<img src="img/mobile-icon.svg" class="close-modal-icon" id="close-modal-icon" alt="close window icon">
+
+			<nav class="wrapper">
+		        <ul>
+		        	<li><a href="home.php">HOME</a></li>
+		            <li><a href="about.php">ABOUT</a></li>
+		            <li><a href="blog.php">BLOG</a></li>
+		            <li><a href="reading.php">READING</a></li>
+		            <li><a href="contact.php">CONTACT</a></li>
+		        </ul>
+	    	</nav>
+		</div>
+
 		<div class="navigation">
-			<img src="img/mobile-icon.svg" alt="mobile navigation button" class="mobile-icon">
-			<img src="img/trademark.svg" alt="Todd Lewis trademark" class="trademark">
+			<img src="img/mobile-icon.svg" alt="mobile navigation button" class="mobile-icon" id="mobile-icon">
+			<!-- <img src="img/trademark.svg" alt="Todd Lewis trademark" class="trademark"> -->
+			<nav>
+		        <ul>
+		            <li><a href="about.php">ABOUT</a></li>
+		            <li><a href="blog.php">BLOG</a></li>
+		            <li></li>
+		            <li><a href="reading.php">READING</a></li>
+		            <li><a href="contact.php">CONTACT</a></li>
+		        </ul>
+	    	</nav>
 		</div>
 
 		<div class="hero-overlay">
@@ -65,7 +88,7 @@
 			</a>
 		</div>
 
-		<div class="side-bar">
+		<div class="side-bar clearfix">
 
 			<div class="reading">
 				<div class="main-title">
@@ -80,11 +103,6 @@
 						<p>What are the jobs of the future? How many will there be? And who will have them? </p>
 					</a>
 				</div>
-
-				<div class="twitter-post">
-					
-				</div>
-
 			</div>
 
 			<div class="sharing">
@@ -92,9 +110,17 @@
 					<h3>What I'm</h3>
 					<h2>Sharing</h2>
 				</div>
+				<div class="twitter-post">
+					<!--Book Feed-->
+					<a href="#">
+						<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+						xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+						xxxxxxxxxxxxxxxxxxx</p>
+					</a>
+				</div>
 			</div>
 		</div>
-
+		
 	</section> <!--end of main page content -->
 
 <?php include ('inc/footer.php'); ?>

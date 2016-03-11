@@ -28,31 +28,26 @@
 	//     })
 	// });
 
-	//CODE FOR SLIDER
-	$(".mobile-navigation").hide();	
-
+	//CODE FOR SLIDER	
+	$(".modal").hide();
 	//DROP DOWN ON ClICK 
 	$(function(){
-		$(".icon").on( "click", function(e){   
-	      	$(".mobile-navigation").fadeToggle(400);
-	      	e.preventDefault();
+		$("#mobile-icon").on( "click", function(e){
+			$(".modal").show().addClass("visible");   
+	      	// e.preventDefault();
+	      	console.log("This Works");
 		});
 	});
 
-
-
- 	// Defining a function to set size for #hero 
-    	var win    = $(window);
-		var heroImage = $( '.hero' );
-
-		var resize = function(){
-			heroImage.css( { "height" : win.innerHeight("%50") + "px"});
-		};
-
-	    win.on( "resize load", function( e ){
-	    	resize();
-	    	console.log(win.innerHeight("%50"));
+	$(function(){
+		$("#close-modal-icon").on( "click", function(e){
+			$(".modal").addClass("visible");   
+	      	// $(".modal").fadeToggle(400);
+	      	// e.preventDefault();
+	      	console.log("This Works");
 		});
+	});
+
 
 
 
