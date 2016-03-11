@@ -27,12 +27,14 @@
 
 		<div class="navigation">
 			<img src="img/mobile-icon.svg" alt="mobile navigation button" class="mobile-icon" id="mobile-icon">
-			<!-- <img src="img/trademark.svg" alt="Todd Lewis trademark" class="trademark"> -->
+			
 			<nav>
 		        <ul>
 		            <li><a href="about.php">ABOUT</a></li>
 		            <li><a href="blog.php">BLOG</a></li>
-		            <li></li>
+
+		            <li><a href="home.php"><img src="img/trademark.svg" alt="Todd Lewis trademark" class="trademark"></a></li>
+
 		            <li><a href="reading.php">READING</a></li>
 		            <li><a href="contact.php">CONTACT</a></li>
 		        </ul>
@@ -57,7 +59,7 @@
 
 			<!--POSTS GO HERE FROM WORDPRESS -->
 
-			<a href="#">
+			<a href="#" class="post">
 				<div class="post-date">
 					<p>March 21</p>
 				</div>
@@ -67,7 +69,7 @@
 				</div>
 			</a>
 
-			<a href="">
+			<a href="#" class="post">
 				<div class="post-date">
 					<p>April 2</p>
 				</div>
@@ -77,15 +79,16 @@
 				</div>
 			</a>
 
-			<a href="#">
+			<a href="#" class="post">
 				<div class="post-date">
 					<p>April 17</p>
 				</div>
 
 				<div class="post-title">
-					<h2>My predictions the future of open-source technology</h2>
+					<h2>The feds aren’t ready for the future of self-driving cars. Open Source Reigns</h2>
 				</div>
 			</a>
+			<button>MORE</button>
 		</div>
 
 		<div class="side-bar clearfix">
@@ -103,6 +106,7 @@
 						<p>What are the jobs of the future? How many will there be? And who will have them? </p>
 					</a>
 				</div>
+				<button>MORE</button>
 			</div>
 
 			<div class="sharing">
@@ -119,6 +123,7 @@
 					</a>
 				</div>
 			</div>
+			<button>MORE</button>
 		</div>
 		
 	</section> <!--end of main page content -->

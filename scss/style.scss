@@ -41,7 +41,8 @@ h1{
     font-family: 'Abril Fatface', sans-serif;
 }
 h2,h3{
-    font-family: 'Abrile Fatface';
+    font-family: 'Abril Fatface';
+    font-weight:300;
 }
 p{
 
@@ -60,6 +61,8 @@ footer{
     text-align: center;
     font-size: 1em;
     font-weight: 600;
+    display: block;
+    margin: 1em auto;
 }
 
 #activeNav{
@@ -131,7 +134,7 @@ footer{
         top:20px;
         left:50%;
         width: 20%;
-        max-width: 60px;
+        max-width: 30px;
     }
 }
 
@@ -173,7 +176,7 @@ html {
         border-bottom:1px solid $light-grey;
     }
     .main-title{
-       margin:4em 0em;
+       margin:3em 0em;
         text-align:center;
         h3{
             color:$grey;
@@ -234,6 +237,7 @@ html {
     }
 }
 footer{
+    margin-top: 10em;
     padding:5em 0em;
     background-color:$black;
     img{
@@ -271,6 +275,7 @@ footer{
     }
 }
 @media screen and (min-width: 680px) {
+    
     .navigation{
         padding:15px 0px;
         .mobile-icon{
@@ -287,17 +292,32 @@ footer{
             display: inline-block;
             width:15%;
             text-align:center;
+            vertical-align: middle;
         }
         a{
             color:white;
             padding:10px;
         }
+        .trademark{
+            position: initial;
+            width: 25%;
+            max-width: 60px;
+        }
     }
     .main-content{
+        .main-title{
+            h3{
+                font-size: 2em;
+            }
+            h2{
+                font-size: 4em;
+            }
+        }
         .post-title{
             h2{
-                width: 70%;
+                width: 85%;
                 margin:1em auto;
+                font-size:2em;
             }
         }
     }
@@ -314,17 +334,17 @@ footer{
     .main-content{
         margin:4em 0;
         .thinking{
-            width:60%;
+            width:66%;
             float:left;
             border-bottom:none;
-            .post-title{
-                width:70%;
-                margin:0 auto;
-            }
         }
+        a.post{
+            margin:8em 0;
+        }
+
         .side-bar{
             margin-left: 5%;
-            width:33%;
+            width:28%;
             float:left;
             padding:0 5%;
             border-left:1px solid $light-grey;
@@ -336,9 +356,26 @@ footer{
             }
             .book-post{
                 img{
-                    width:25%;
+                    width:50%;
+                }
+                p{
+                    width: 90%;
                 }
             }
+        }
+    }
+    footer{
+
+        nav{
+            margin-top: 2em;
+        }
+        ul{
+            text-align:center;
+
+        }
+        li{
+            display: inline-block;
+            padding:0 20px;
         }
     }
 }
