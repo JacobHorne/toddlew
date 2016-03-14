@@ -16,7 +16,7 @@
 
 			<nav class="wrapper">
 		        <ul>
-		        	<li><a href="home.php">HOME</a></li>
+		        	<li><a href="index.php">HOME</a></li>
 		            <li><a href="about.php">ABOUT</a></li>
 		            <li><a href="blog.php">BLOG</a></li>
 		            <li><a href="reading.php">READING</a></li>
@@ -33,7 +33,7 @@
 		            <li><a href="about.php">ABOUT</a></li>
 		            <li><a href="blog.php">BLOG</a></li>
 
-		            <li><a href="home.php"><img src="img/trademark.svg" alt="Todd Lewis trademark" class="trademark"></a></li>
+		            <li><a href="index.php"><img src="img/trademark.svg" alt="Todd Lewis trademark" class="trademark"></a></li>
 
 		            <li><a href="reading.php">READING</a></li>
 		            <li><a href="contact.php">CONTACT</a></li>
@@ -94,16 +94,16 @@
 		<div class="side-bar clearfix">
 
 			<div class="reading">
-				<div class="main-title">
+				<!-- <div class="main-title">
 					<h3>What I'm</h3>
 					<h2>Reading</h2>
-				</div>
+				</div> -->
 
 				<div class="book-post">
 					<!--Book Feed-->
 					<a href="#">
 						<img src="img/rise-of-robots.jpg" alt"Picture of the book Rise of the Robots">
-						<p>What are the jobs of the future? How many will there be? And who will have them? </p>
+						<p>Click and be taken to a blog post about the book I regularly think about many of the issues brought up in this must-read book, and it's vital people begin to do so as well. </p>
 					</a>
 				</div>
 				<button>MORE</button>

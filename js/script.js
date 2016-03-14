@@ -28,25 +28,27 @@
 	//     })
 	// });
 
-	//CODE FOR SLIDER	
+	//CODE FOR SLIDER
+
 	$(".modal").hide();
+	
 	//DROP DOWN ON ClICK 
 	$(function(){
 		$("#mobile-icon").on( "click", function(e){
-			$(".modal").show().addClass("visible");   
+			$(".modal").toggleClass('visible');   
 	      	// e.preventDefault();
-	      	console.log("This Works");
+	      	console.log("Te");
 		});
 	});
 
-	$(function(){
-		$("#close-modal-icon").on( "click", function(e){
-			$(".modal").addClass("visible");   
-	      	// $(".modal").fadeToggle(400);
-	      	// e.preventDefault();
-	      	console.log("This Works");
-		});
-	});
+	// $(function(){
+	// 	$("#close-modal-icon").on( "click", function(e){
+	// 		$(".modal").removeClass('visible');   
+	//       	// $(".modal").fadeToggle(400);
+	//       	// e.preventDefault();
+	//       	console.log("This Works");
+	// 	});
+	// });
 
 
 
