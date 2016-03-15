@@ -1,0 +1,63 @@
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+/* line 7, ../../scss/components/footer.scss */
+footer {
+  margin-top: 6em;
+  padding: 5em 0em;
+  background-color: #232323;
+}
+/* line 11, ../../scss/components/footer.scss */
+footer img {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  max-width: 120px;
+}
+/* line 17, ../../scss/components/footer.scss */
+footer p {
+  margin: 1.5em 0em;
+  color: grey;
+  padding: 0;
+  text-align: center;
+  font-size: 1.3em;
+  font-style: italic;
+}
+/* line 25, ../../scss/components/footer.scss */
+footer span {
+  color: grey;
+  font-size: 2.4em;
+}
+/* line 29, ../../scss/components/footer.scss */
+footer nav {
+  width: 50%;
+  margin: 0 auto;
+}
+/* line 32, ../../scss/components/footer.scss */
+footer nav ul {
+  padding: 0;
+}
+/* line 35, ../../scss/components/footer.scss */
+footer nav a {
+  display: block;
+  color: #d1d35e;
+  font-weight: 600;
+  text-align: center;
+  padding: 9px 0px;
+  font-size: 1.2em;
+}
+
+@media screen and (min-width: 1000px) {
+  /* line 50, ../../scss/components/footer.scss */
+  footer nav {
+    margin-top: 2em;
+  }
+  /* line 53, ../../scss/components/footer.scss */
+  footer ul {
+    text-align: center;
+  }
+  /* line 57, ../../scss/components/footer.scss */
+  footer li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+}

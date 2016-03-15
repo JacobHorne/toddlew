@@ -1,0 +1,47 @@
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+/* line 7, ../../scss/components/sub-page.scss */
+.center {
+  width: 90%;
+  margin: 4em auto 0 auto;
+}
+/* line 10, ../../scss/components/sub-page.scss */
+.center a {
+  display: block;
+}
+/* line 14, ../../scss/components/sub-page.scss */
+.center img {
+  display: block;
+  width: 100%;
+  margin: auto;
+  max-width: 200px;
+}
+/* line 20, ../../scss/components/sub-page.scss */
+.center p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 680px) {
+  /* line 27, ../../scss/components/sub-page.scss */
+  .center {
+    width: 75%;
+    margin: 10em auto 0 auto;
+  }
+  /* line 30, ../../scss/components/sub-page.scss */
+  .center img {
+    width: 60%;
+    max-width: 300px;
+  }
+  /* line 34, ../../scss/components/sub-page.scss */
+  .center p {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  /* line 42, ../../scss/components/sub-page.scss */
+  .center {
+    width: 65%;
+    margin: 10em auto 0 auto;
+  }
+}

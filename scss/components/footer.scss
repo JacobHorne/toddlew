@@ -1,0 +1,82 @@
+@import "Compass";
+@import "_variables";
+
+
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+footer{
+    margin-top: 6em;
+    padding:5em 0em;
+    background-color:$black;
+    img{
+        display: block;
+        width:30%;
+        margin:0 auto;
+        max-width: 120px;
+    }
+    p{
+        margin:1.5em 0em;
+        color:grey;
+        padding:0;
+        text-align:center;
+        font-size: 1.3em;
+        font-style: italic;  
+    }
+     span{
+        color:grey;
+        font-size:2.4em;
+    }
+    nav{
+        width: 50%;
+        margin:0 auto;
+        ul{
+            padding:0;
+        }
+        a{
+            display: block;
+            color:$gold;
+            font-weight: 600;
+            text-align:center;
+            padding:9px 0px;
+            font-size:1.2em;
+        }
+    }
+}
+@media screen and (min-width: 680px) {
+
+}
+@media screen and (min-width: 1000px) {
+    footer{
+        nav{
+            margin-top: 2em;
+        }
+        ul{
+            text-align:center;
+
+        }
+        li{
+            display: inline-block;
+            padding:0 20px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

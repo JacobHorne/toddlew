@@ -8,51 +8,42 @@
 
 <?php include ('inc/html-header.php'); ?>
 
-	
+	<div class="navigation inverse-header">
+		<img src="img/mobile-icon-dark.svg" alt="mobile navigation button" class="mobile-icon" id="mobile-icon">
+		<nav>
+		    <ul>
+		        <li><a href="about.php">ABOUT</a></li>
+		        <li><a href="blog.php">BLOG</a></li>
+
+		        <li><a href="index.php"><img src="img/trademark-dark.svg" alt="Todd Lewis trademark" class="trademark"></a></li>
+
+		        <li><a href="reading.php">READING</a></li>
+		        <li><a href="contact.php">CONTACT</a></li>
+		    </ul>
+	    </nav>
+	</div>
+
+	<div class="modal">
+			<!-- <img src="img/mobile-icon.svg" class="close-modal-icon" id="close-modal-icon" alt="close window icon"> -->
+
+		<nav class="wrapper">
+		    <ul>
+		       	<li><a href="index.php">HOME</a></li>
+		        <li><a href="about.php">ABOUT</a></li>
+		        <li><a href="blog.php">BLOG</a></li>
+		        <li><a href="reading.php">READING</a></li>
+		        <li><a href="contact.php">CONTACT</a></li>
+		    </ul>
+	    </nav>
+	</div>
+
 	<section>
-
-		<div class="modal">
-			<img src="img/mobile-icon.svg" class="close-modal-icon" id="close-modal-icon" alt="close window icon">
-
-			<nav class="wrapper">
-		        <ul>
-		        	<li><a href="index.php">HOME</a></li>
-		            <li><a href="about.php">ABOUT</a></li>
-		            <li><a href="blog.php">BLOG</a></li>
-		            <li><a href="reading.php">READING</a></li>
-		            <li><a href="contact.php">CONTACT</a></li>
-		        </ul>
-	    	</nav>
-		</div>
-
-		<!-- <div class="navigation">
-			<img src="img/mobile-icon.svg" alt="mobile navigation button" class="mobile-icon" id="mobile-icon">
-			
-			<nav>
-		        <ul>
-		            <li><a href="about.php">ABOUT</a></li>
-		            <li><a href="blog.php">BLOG</a></li>
-
-		            <li><a href="index.php"><img src="img/trademark.svg" alt="Todd Lewis trademark" class="trademark"></a></li>
-
-		            <li><a href="reading.php">READING</a></li>
-		            <li><a href="contact.php">CONTACT</a></li>
-		        </ul>
-	    	</nav>
-		</div> -->
 
 	</section>
 
-	<section class="main-content wrapper clearfix">
+	<section class="main-content clearfix">
 		
-		<div class="thinking sub-page">
-
-			<!-- <div class="main-title larger">
-				<h3>What I'm</h3>
-				<h2>Reading</h2>
-			</div> -->
-
-			<!--POSTS GO HERE FROM WORDPRESS -->
+		<div class="center">
 
 			<div class="book-post">
 				<!--Book Feed-->

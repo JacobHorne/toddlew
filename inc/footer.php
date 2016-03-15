@@ -4,7 +4,7 @@
 		<p>" Design is not just what it looks like and feels like. Design is how it works. "</p>
 		<nav>
 	        <ul>
-	        	<li><a href="home.php">HOME</a></li>
+	        	<li><a href="index.php">HOME</a></li>
 	            <li><a href="about.php">ABOUT</a></li>
 	            <li><a href="blog.php">BLOG</a></li>
 	            <li><a href="reading.php">READING</a></li>

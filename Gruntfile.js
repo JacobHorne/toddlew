@@ -20,7 +20,7 @@ module.exports = function( grunt ){
         //compass compiles all of the css
         watch : {
             styles : {
-                files : [ 'scss/*.scss' ],
+                files : [ 'scss/**/*.scss' ],
                 tasks : [ 'compass:verbose' ]
             },
             html: {
@@ -34,25 +34,25 @@ module.exports = function( grunt ){
             }
         },
 
-        connect: {
-            server: {
-                options: {
-                    port: 9000,
-                    base: '.',
-                    hostname: '0.0.0.0',
-                    protocol: 'http',
-                    livereload: true,
-                    open: true,
-                }
-            }
-        },
+        // connect: {
+        //     server: {
+        //         options: {
+        //             port: 9000,
+        //             base: '.',
+        //             hostname: '0.0.0.0',
+        //             protocol: 'http',
+        //             livereload: true,
+        //             open: true,
+        //         }
+        //     }
+        // },
     });
 
     //2. Gives access to grunt tasks that have been loaded
     //through NPM
     //takes 1 argument: a string name for the NPM package
     //grunt.loadNpmTasks();
-    grunt.loadNpmTasks( "grunt-contrib-connect" );
+    // grunt.loadNpmTasks( "grunt-contrib-connect" );
     grunt.loadNpmTasks( "grunt-contrib-compass" );
     grunt.loadNpmTasks( "grunt-contrib-watch" );
 

@@ -9,37 +9,36 @@
 <?php include ('inc/html-header.php'); ?>
 
 	
+	<div class="navigation header-background">
+		<img src="img/mobile-icon.svg" alt="mobile navigation button" class="mobile-icon" id="mobile-icon">
+		<nav>
+		    <ul>
+		        <li><a href="about.php">ABOUT</a></li>
+		        <li><a href="blog.php">BLOG</a></li>
+
+		        <li><a href="index.php"><img src="img/trademark.svg" alt="Todd Lewis trademark" class="trademark"></a></li>
+
+		        <li><a href="reading.php">READING</a></li>
+		        <li><a href="contact.php">CONTACT</a></li>
+		    </ul>
+	    </nav>
+	</div>
+
+	<div class="modal">
+			<!-- <img src="img/mobile-icon.svg" class="close-modal-icon" id="close-modal-icon" alt="close window icon"> -->
+
+		<nav class="wrapper">
+		    <ul>
+		       	<li><a href="index.php">HOME</a></li>
+		        <li><a href="about.php">ABOUT</a></li>
+		        <li><a href="blog.php">BLOG</a></li>
+		        <li><a href="reading.php">READING</a></li>
+		        <li><a href="contact.php">CONTACT</a></li>
+		    </ul>
+	    </nav>
+	</div>
+
 	<section class="hero" id="hero">
-
-		<div class="modal">
-			<img src="img/mobile-icon.svg" class="close-modal-icon" id="close-modal-icon" alt="close window icon">
-
-			<nav class="wrapper">
-		        <ul>
-		        	<li><a href="index.php">HOME</a></li>
-		            <li><a href="about.php">ABOUT</a></li>
-		            <li><a href="blog.php">BLOG</a></li>
-		            <li><a href="reading.php">READING</a></li>
-		            <li><a href="contact.php">CONTACT</a></li>
-		        </ul>
-	    	</nav>
-		</div>
-
-		<div class="navigation">
-			<img src="img/mobile-icon.svg" alt="mobile navigation button" class="mobile-icon" id="mobile-icon">
-			
-			<nav>
-		        <ul>
-		            <li><a href="about.php">ABOUT</a></li>
-		            <li><a href="blog.php">BLOG</a></li>
-
-		            <li><a href="index.php"><img src="img/trademark.svg" alt="Todd Lewis trademark" class="trademark"></a></li>
-
-		            <li><a href="reading.php">READING</a></li>
-		            <li><a href="contact.php">CONTACT</a></li>
-		        </ul>
-	    	</nav>
-		</div>
 
 		<div class="hero-overlay">
 			<h1>Todd Lewis</h1>
@@ -50,7 +49,7 @@
 
 	<section class="main-content wrapper clearfix">
 		
-		<div class="thinking">
+		<div class="blog">
 
 			<div class="main-title">
 				<h3>What I'm</h3>
@@ -94,10 +93,10 @@
 		<div class="side-bar clearfix">
 
 			<div class="reading">
-				<!-- <div class="main-title">
+				<div class="main-title">
 					<h3>What I'm</h3>
 					<h2>Reading</h2>
-				</div> -->
+				</div>
 
 				<div class="book-post">
 					<!--Book Feed-->

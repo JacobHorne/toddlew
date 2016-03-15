@@ -7,39 +7,37 @@
 ?>
 
 <?php include ('inc/html-header.php'); ?>
+	
+	<div class="navigation header-background">
+		<img src="img/mobile-icon.svg" alt="mobile navigation button" class="mobile-icon" id="mobile-icon">
+		<nav>
+		    <ul>
+		        <li><a href="about.php">ABOUT</a></li>
+		        <li><a href="blog.php">BLOG</a></li>
 
+		        <li><a href="index.php"><img src="img/trademark.svg" alt="Todd Lewis trademark" class="trademark"></a></li>
+
+		        <li><a href="reading.php">READING</a></li>
+		        <li><a href="contact.php">CONTACT</a></li>
+		    </ul>
+	    </nav>
+	</div>
+
+	<div class="modal">
+			<!-- <img src="img/mobile-icon.svg" class="close-modal-icon" id="close-modal-icon" alt="close window icon"> -->
+
+		<nav class="wrapper">
+		    <ul>
+		       	<li><a href="index.php">HOME</a></li>
+		        <li><a href="about.php">ABOUT</a></li>
+		        <li><a href="blog.php">BLOG</a></li>
+		        <li><a href="reading.php">READING</a></li>
+		        <li><a href="contact.php">CONTACT</a></li>
+		    </ul>
+	    </nav>
+	</div>
 	
 	<section class="subpage-hero" id="hero">
-
-		<div class="modal">
-			<img src="img/mobile-icon.svg" class="close-modal-icon" id="close-modal-icon" alt="close window icon">
-
-			<nav class="wrapper">
-		        <ul>
-		        	<li><a href="index.php">HOME</a></li>
-		            <li><a href="about.php">ABOUT</a></li>
-		            <li><a href="blog.php">BLOG</a></li>
-		            <li><a href="reading.php">READING</a></li>
-		            <li><a href="contact.php">CONTACT</a></li>
-		        </ul>
-	    	</nav>
-		</div>
-
-		<div class="navigation">
-			<img src="img/mobile-icon.svg" alt="mobile navigation button" class="mobile-icon" id="mobile-icon">
-			
-			<nav>
-		        <ul>
-		            <li><a href="index.php">HOME</a></li>
-		            <li><a href="blog.php">BLOG</a></li>
-
-		            <li><a href="index.php"><img src="img/trademark.svg" alt="Todd Lewis trademark" class="trademark"></a></li>
-		            
-		            <li><a href="reading.php">READING</a></li>
-		            <li><a href="contact.php">CONTACT</a></li>
-		        </ul>
-	    	</nav>
-		</div>
 
 		<div class="subpage-hero-overlay">
 	    </div>
@@ -48,9 +46,9 @@
 
 	<section class="main-content wrapper clearfix">
 		
-		<div class="thinking">
+		<div class="blog">
 
-			<div class="main-title">
+			<div class="main-title underline">
 				<h2>About</h2>
 			</div>
 
@@ -62,7 +60,7 @@
 
 			<p>I've been in the technology field in one form or another for more than 15 years.  Hands down it was the best decision of my life, but one that wasn't necessarily a "natural progression" shall we say.  I was raised in southern West Virginia in a coal mining family, and computers were way too expensive for us to have one in the house.  As a result my exposure to technology was limited to Atari and typewriters the entire time I was home.  It wasn't until college that I had a chance to experience a personal computer and really understand the possibilities computing and technology in general make possible.  It really opened up a new world and enabled me to expand my horizons beyond then-present circumstances.  Needless to say I haven't looked back.</p>
 
-			<div class="main-title">
+			<div class="main-title underline">
 				<h2>Values</h2>
 			</div>
 
@@ -82,7 +80,7 @@
 		<div class="side-bar clearfix">
 
 			<div class="reading">
-				<div class="main-title">
+				<div class="main-title underline">
 					<h2>Media</h2>
 				</div>
 

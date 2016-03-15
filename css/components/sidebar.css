@@ -1,6 +1,53 @@
 /***** CLEARFIX is applied to the parent of floated elements *************/
 /*************************************************************************/
-/* line 7, ../../scss/components/sidebar.scss */
-h1 {
-  color: green;
+/* line 10, ../../scss/components/sidebar.scss */
+.side-bar .book-post {
+  text-align: center;
+}
+/* line 12, ../../scss/components/sidebar.scss */
+.side-bar .book-post img {
+  width: 70%;
+  max-width: 200px;
+  margin: 0em 1em 1em 1em;
+  border: 1px solid #f1f1f1;
+}
+/* line 18, ../../scss/components/sidebar.scss */
+.side-bar .book-post p {
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+/* line 24, ../../scss/components/sidebar.scss */
+.side-bar .twitter-post {
+  text-align: center;
+}
+/* line 28, ../../scss/components/sidebar.scss */
+.side-bar .media-post img {
+  display: block;
+  max-width: 200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1000px) {
+  /* line 37, ../../scss/components/sidebar.scss */
+  .side-bar {
+    margin-left: 5%;
+    width: 28%;
+    float: left;
+    padding: 0 5%;
+    border-left: 1px solid #f1f1f1;
+  }
+  /* line 46, ../../scss/components/sidebar.scss */
+  .side-bar .sharing {
+    border: none;
+  }
+  /* line 50, ../../scss/components/sidebar.scss */
+  .side-bar .book-post img {
+    width: 50%;
+  }
+  /* line 53, ../../scss/components/sidebar.scss */
+  .side-bar .book-post p {
+    width: 90%;
+  }
 }

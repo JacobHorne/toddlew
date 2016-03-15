@@ -1,0 +1,69 @@
+@import "_variables";
+
+
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+
+.center{
+    width: 90%;
+    margin: 4em auto 0 auto;
+    a{
+        display:block;
+    }
+    
+    img{
+        display: block;
+        width:100%;
+        margin: auto;
+        max-width: 200px;
+    }
+    p{
+        width:80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 680px) {
+    
+    .center{
+    width: 75%;
+    margin: 10em auto 0 auto;
+        img{
+            width: 60%;
+            max-width: 300px;
+        }
+        p{
+            width:80%;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+	
+    .center{
+    width: 65%;
+    margin: 10em auto 0 auto;
+        img{
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

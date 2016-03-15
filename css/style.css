@@ -1,37 +1,329 @@
 /***** CLEARFIX is applied to the parent of floated elements *************/
 /*************************************************************************/
-/* line 7, ../scss/components/sidebar.scss */
-h1 {
-  color: green;
+/* line 10, ../scss/components/sidebar.scss */
+.side-bar .book-post {
+  text-align: center;
+}
+/* line 12, ../scss/components/sidebar.scss */
+.side-bar .book-post img {
+  width: 70%;
+  max-width: 200px;
+  margin: 0em 1em 1em 1em;
+  border: 1px solid #f1f1f1;
+}
+/* line 18, ../scss/components/sidebar.scss */
+.side-bar .book-post p {
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+/* line 24, ../scss/components/sidebar.scss */
+.side-bar .twitter-post {
+  text-align: center;
+}
+/* line 28, ../scss/components/sidebar.scss */
+.side-bar .media-post img {
+  display: block;
+  max-width: 200px;
+  width: 90%;
+  margin: 0 auto;
 }
 
+@media screen and (min-width: 1000px) {
+  /* line 37, ../scss/components/sidebar.scss */
+  .side-bar {
+    margin-left: 5%;
+    width: 28%;
+    float: left;
+    padding: 0 5%;
+    border-left: 1px solid #f1f1f1;
+  }
+  /* line 46, ../scss/components/sidebar.scss */
+  .side-bar .sharing {
+    border: none;
+  }
+  /* line 50, ../scss/components/sidebar.scss */
+  .side-bar .book-post img {
+    width: 50%;
+  }
+  /* line 53, ../scss/components/sidebar.scss */
+  .side-bar .book-post p {
+    width: 90%;
+  }
+}
 /***** CLEARFIX is applied to the parent of floated elements *************/
 /*************************************************************************/
-/* line 8, ../scss/style.scss */
+/* line 9, ../scss/components/navigation.scss */
+.modal {
+  opacity: 0;
+  background-color: white;
+  color: #232323;
+  position: fixed;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+/* line 17, ../scss/components/navigation.scss */
+.modal .close-modal-icon {
+  position: absolute;
+  top: 20px;
+  left: 3%;
+  max-width: 30px;
+}
+/* line 23, ../scss/components/navigation.scss */
+.modal nav {
+  padding-top: 1em;
+}
+/* line 26, ../scss/components/navigation.scss */
+.modal ul {
+  padding: 0;
+  list-style: none;
+}
+/* line 30, ../scss/components/navigation.scss */
+.modal a {
+  display: block;
+  padding: 40px;
+  font-size: 1.5em;
+  color: #232323;
+  text-align: center;
+}
+
+/* line 38, ../scss/components/navigation.scss */
+.visible {
+  opacity: 0.97;
+}
+
+/* line 42, ../scss/components/navigation.scss */
+.navigation {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  transition: top 0.2s ease-in-out;
+  z-index: 5;
+  color: white;
+}
+/* line 50, ../scss/components/navigation.scss */
+.navigation nav {
+  display: none;
+}
+/* line 53, ../scss/components/navigation.scss */
+.navigation a {
+  color: white;
+}
+/* line 56, ../scss/components/navigation.scss */
+.navigation .mobile-icon {
+  position: absolute;
+  top: 20px;
+  left: 3%;
+  max-width: 30px;
+}
+/* line 62, ../scss/components/navigation.scss */
+.navigation .trademark {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  width: 20%;
+  max-width: 30px;
+}
+
+/* line 70, ../scss/components/navigation.scss */
+.scrollUp {
+  top: -61px;
+}
+
+/* line 74, ../scss/components/navigation.scss */
+.header-background {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#232323+0,000000+100&0.95+0,0.74+43,0.55+78,0.33+100 */
+  background: -moz-linear-gradient(top, rgba(35, 35, 35, 0.95) 0%, rgba(20, 20, 20, 0.74) 43%, rgba(8, 8, 8, 0.55) 78%, rgba(0, 0, 0, 0.33) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(35, 35, 35, 0.95) 0%, rgba(20, 20, 20, 0.74) 43%, rgba(8, 8, 8, 0.55) 78%, rgba(0, 0, 0, 0.33) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(35, 35, 35, 0.95) 0%, rgba(20, 20, 20, 0.74) 43%, rgba(8, 8, 8, 0.55) 78%, rgba(0, 0, 0, 0.33) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2232323', endColorstr='#54000000',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 81, ../scss/components/navigation.scss */
+.inverse-header {
+  background-color: white;
+}
+/* line 83, ../scss/components/navigation.scss */
+.inverse-header a {
+  color: #232323;
+}
+
+@media screen and (min-width: 680px) {
+  /* line 91, ../scss/components/navigation.scss */
+  .navigation .mobile-icon {
+    display: none;
+  }
+  /* line 94, ../scss/components/navigation.scss */
+  .navigation nav {
+    display: block;
+    text-align: center;
+  }
+  /* line 98, ../scss/components/navigation.scss */
+  .navigation ul {
+    padding: 0;
+  }
+  /* line 101, ../scss/components/navigation.scss */
+  .navigation li {
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    vertical-align: middle;
+  }
+  /* line 107, ../scss/components/navigation.scss */
+  .navigation a {
+    padding: 10px;
+  }
+  /* line 110, ../scss/components/navigation.scss */
+  .navigation .trademark {
+    position: initial;
+    width: 25%;
+    max-width: 60px;
+  }
+}
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+/* line 7, ../scss/components/footer.scss */
+footer {
+  margin-top: 6em;
+  padding: 5em 0em;
+  background-color: #232323;
+}
+/* line 11, ../scss/components/footer.scss */
+footer img {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  max-width: 120px;
+}
+/* line 17, ../scss/components/footer.scss */
+footer p {
+  margin: 1.5em 0em;
+  color: grey;
+  padding: 0;
+  text-align: center;
+  font-size: 1.3em;
+  font-style: italic;
+}
+/* line 25, ../scss/components/footer.scss */
+footer span {
+  color: grey;
+  font-size: 2.4em;
+}
+/* line 29, ../scss/components/footer.scss */
+footer nav {
+  width: 50%;
+  margin: 0 auto;
+}
+/* line 32, ../scss/components/footer.scss */
+footer nav ul {
+  padding: 0;
+}
+/* line 35, ../scss/components/footer.scss */
+footer nav a {
+  display: block;
+  color: #d1d35e;
+  font-weight: 600;
+  text-align: center;
+  padding: 9px 0px;
+  font-size: 1.2em;
+}
+
+@media screen and (min-width: 1000px) {
+  /* line 50, ../scss/components/footer.scss */
+  footer nav {
+    margin-top: 2em;
+  }
+  /* line 53, ../scss/components/footer.scss */
+  footer ul {
+    text-align: center;
+  }
+  /* line 57, ../scss/components/footer.scss */
+  footer li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+}
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+/* line 7, ../scss/components/sub-page.scss */
+.center {
+  width: 90%;
+  margin: 4em auto 0 auto;
+}
+/* line 10, ../scss/components/sub-page.scss */
+.center a {
+  display: block;
+}
+/* line 14, ../scss/components/sub-page.scss */
+.center img {
+  display: block;
+  width: 100%;
+  margin: auto;
+  max-width: 200px;
+}
+/* line 20, ../scss/components/sub-page.scss */
+.center p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 680px) {
+  /* line 27, ../scss/components/sub-page.scss */
+  .center {
+    width: 75%;
+    margin: 10em auto 0 auto;
+  }
+  /* line 30, ../scss/components/sub-page.scss */
+  .center img {
+    width: 60%;
+    max-width: 300px;
+  }
+  /* line 34, ../scss/components/sub-page.scss */
+  .center p {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  /* line 42, ../scss/components/sub-page.scss */
+  .center {
+    width: 65%;
+    margin: 10em auto 0 auto;
+  }
+}
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+/* line 12, ../scss/style.scss */
 .clearfix {
   zoom: 1;
 }
-/* line 10, ../scss/style.scss */
+/* line 14, ../scss/style.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
-/* line 14, ../scss/style.scss */
+/* line 18, ../scss/style.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 18, ../scss/style.scss */
+/* line 22, ../scss/style.scss */
 html {
   box-sizing: border-box;
+  height: 100%;
 }
 
-/* line 22, ../scss/style.scss */
+/* line 27, ../scss/style.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 26, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 .hide-me {
   height: 0;
   opacity: 0;
@@ -39,7 +331,7 @@ html {
 
 /***** SITE STYLES *************/
 /**********************************/
-/* line 34, ../scss/style.scss */
+/* line 39, ../scss/style.scss */
 body {
   font-family: 'Raleway', sans-serif;
   color: #232323;
@@ -47,24 +339,24 @@ body {
   height: 100%;
 }
 
-/* line 40, ../scss/style.scss */
+/* line 46, ../scss/style.scss */
 h1 {
   font-family: 'Abril Fatface', sans-serif;
 }
 
-/* line 43, ../scss/style.scss */
+/* line 49, ../scss/style.scss */
 h2, h3 {
   font-family: 'Abril Fatface';
   font-weight: 300;
 }
 
-/* line 50, ../scss/style.scss */
+/* line 54, ../scss/style.scss */
 a {
   text-decoration: none;
   color: #232323;
 }
 
-/* line 56, ../scss/style.scss */
+/* line 59, ../scss/style.scss */
 button {
   border: 3px solid #d1d35e;
   padding: 10px 25px;
@@ -75,15 +367,23 @@ button {
   font-weight: 600;
   display: block;
   margin: 1em auto;
+  transition: all 0.3s ease 0s;
+}
+/* line 70, ../scss/style.scss */
+button:hover {
+  border: 3px solid #232323;
+  background-color: #232323;
+  color: #d1d35e;
 }
 
-/* line 67, ../scss/style.scss */
+/* line 76, ../scss/style.scss */
 form {
   display: block;
   width: 90%;
   margin: 0 auto;
+  max-width: 800px;
 }
-/* line 72, ../scss/style.scss */
+/* line 82, ../scss/style.scss */
 form input {
   display: block;
   width: 100%;
@@ -95,11 +395,11 @@ form input {
   color: #232323;
   margin-bottom: 1em;
 }
-/* line 83, ../scss/style.scss */
+/* line 93, ../scss/style.scss */
 form textarea {
   display: block;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto 3em auto;
   height: 160px;
   padding: 10px 10px;
   font-size: 16px;
@@ -107,94 +407,15 @@ form textarea {
   color: #232323;
 }
 
-/* line 100, ../scss/style.scss */
-.modal {
-  opacity: 0;
-  background-color: white;
-  color: #232323;
-  position: fixed;
-  z-index: 2;
-  height: 100%;
-  width: 100%;
-}
-/* line 108, ../scss/style.scss */
-.modal .close-modal-icon {
-  position: absolute;
-  top: 20px;
-  left: 3%;
-  max-width: 30px;
-}
-/* line 114, ../scss/style.scss */
-.modal nav {
-  padding-top: 1em;
-}
-/* line 117, ../scss/style.scss */
-.modal ul {
-  padding: 0;
-  list-style: none;
-}
-/* line 121, ../scss/style.scss */
-.modal a {
-  display: block;
-  padding: 40px;
-  font-size: 1.5em;
-  color: #232323;
-  text-align: center;
-}
-
-/* line 129, ../scss/style.scss */
-.visible {
-  opacity: 0.97;
-}
-
-/***** SITE STYLES *************/
-/**********************************/
-/* line 136, ../scss/style.scss */
+/* line 110, ../scss/style.scss */
 .wrapper {
   width: 80%;
   margin: 0 auto;
 }
 
-/* line 141, ../scss/style.scss */
-.navigation {
-  position: relative;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+11,000000+77,000000+100&0.88+62,0+100 */
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.88) 11%, rgba(0, 0, 0, 0.88) 62%, rgba(0, 0, 0, 0.53) 77%, transparent 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.88) 11%, rgba(0, 0, 0, 0.88) 62%, rgba(0, 0, 0, 0.53) 77%, transparent 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.88) 11%, rgba(0, 0, 0, 0.88) 62%, rgba(0, 0, 0, 0.53) 77%, rgba(0, 0, 0, 0) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0000000', endColorstr='#00000000',GradientType=0 );
-  /* IE6-9 */
-  padding: 50px 0px;
-}
-/* line 149, ../scss/style.scss */
-.navigation nav {
-  display: none;
-}
-/* line 152, ../scss/style.scss */
-.navigation .mobile-icon {
-  position: absolute;
-  top: 20px;
-  left: 3%;
-  max-width: 30px;
-}
-/* line 158, ../scss/style.scss */
-.navigation .trademark {
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  width: 20%;
-  max-width: 30px;
-}
-
-/* line 167, ../scss/style.scss */
-html {
-  height: 100%;
-}
-
-/* line 171, ../scss/style.scss */
+/***** SITE STYLES *************/
+/**********************************/
+/* line 118, ../scss/style.scss */
 .hero {
   background-image: url("../img/todd-lewis-hero.jpg");
   position: relative;
@@ -202,14 +423,14 @@ html {
   height: 100%;
   background-position: center center;
 }
-/* line 178, ../scss/style.scss */
+/* line 125, ../scss/style.scss */
 .hero .hero-overlay {
   position: relative;
   top: 30%;
   left: auto;
   right: auto;
 }
-/* line 183, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 .hero .hero-overlay h1 {
   color: white;
   font-size: 4em;
@@ -217,7 +438,7 @@ html {
   text-align: center;
   margin: 0;
 }
-/* line 190, ../scss/style.scss */
+/* line 137, ../scss/style.scss */
 .hero .hero-overlay h4 {
   color: white;
   text-align: center;
@@ -227,7 +448,7 @@ html {
   font-family: 'Raleway';
 }
 
-/* line 201, ../scss/style.scss */
+/* line 148, ../scss/style.scss */
 .subpage-hero {
   background-image: url("../img/about.jpg");
   position: relative;
@@ -235,7 +456,7 @@ html {
   height: 60%;
   background-position: center center;
 }
-/* line 208, ../scss/style.scss */
+/* line 155, ../scss/style.scss */
 .subpage-hero .subpage-hero-overlay {
   position: relative;
   bottom: 20px;
@@ -243,7 +464,7 @@ html {
   left: auto;
   right: auto;
 }
-/* line 214, ../scss/style.scss */
+/* line 161, ../scss/style.scss */
 .subpage-hero .subpage-hero-overlay h1 {
   color: white;
   font-size: 4em;
@@ -251,7 +472,7 @@ html {
   text-align: center;
   margin: 0;
 }
-/* line 221, ../scss/style.scss */
+/* line 168, ../scss/style.scss */
 .subpage-hero .subpage-hero-overlay h4 {
   color: white;
   text-align: center;
@@ -261,7 +482,7 @@ html {
   font-family: 'Raleway';
 }
 
-/* line 231, ../scss/style.scss */
+/* line 178, ../scss/style.scss */
 .contact-hero {
   background-image: url("../img/contact.jpg");
   position: relative;
@@ -270,50 +491,50 @@ html {
   background-position: center center;
 }
 
-/* line 239, ../scss/style.scss */
-.main-content .thinking {
-  border-bottom: 1px solid #f1f1f1;
+/* line 190, ../scss/style.scss */
+.main-content .blog {
+  margin-top: 3em;
 }
-/* line 241, ../scss/style.scss */
-.main-content .thinking p {
-  line-height: 1.5em;
-  margin: 1.5em auto;
-  font-size: 1.2em;
-  font-weight: 300;
-}
-/* line 249, ../scss/style.scss */
-.main-content .thinking.sub-page div {
+/* line 192, ../scss/style.scss */
+.main-content .blog div {
   margin: 0 auto;
   width: 100%;
 }
-/* line 253, ../scss/style.scss */
-.main-content .thinking.sub-page img {
+/* line 196, ../scss/style.scss */
+.main-content .blog img {
   display: block;
   max-width: 200px;
   margin: 0 auto;
 }
-/* line 259, ../scss/style.scss */
+/* line 201, ../scss/style.scss */
+.main-content .blog p {
+  line-height: 1.5em;
+  margin: 2em auto;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+/* line 208, ../scss/style.scss */
 .main-content .main-title {
   margin: 3em 0em;
   text-align: center;
 }
-/* line 262, ../scss/style.scss */
+/* line 211, ../scss/style.scss */
 .main-content .main-title h3 {
   color: #c5c7c6;
   margin: 0;
   font-size: 1.6em;
 }
-/* line 267, ../scss/style.scss */
+/* line 216, ../scss/style.scss */
 .main-content .main-title h2 {
   margin: 0;
   font-size: 3.5em;
 }
-/* line 272, ../scss/style.scss */
+/* line 221, ../scss/style.scss */
 .main-content a {
   display: block;
   margin-bottom: 6em;
 }
-/* line 276, ../scss/style.scss */
+/* line 226, ../scss/style.scss */
 .main-content .post-date {
   width: 40%;
   max-width: 100px;
@@ -321,223 +542,93 @@ html {
   border-top: 1px solid #d1d35e;
   border-bottom: 1px solid #d1d35e;
 }
-/* line 282, ../scss/style.scss */
+/* line 232, ../scss/style.scss */
 .main-content .post-date p {
   text-align: center;
   margin: 0.5em;
 }
-/* line 288, ../scss/style.scss */
+/* line 239, ../scss/style.scss */
 .main-content .post-title {
   text-align: center;
 }
-/* line 290, ../scss/style.scss */
+/* line 241, ../scss/style.scss */
 .main-content .post-title h2 {
   font-weight: 300;
   font-family: 'Raleway';
   font-size: 1.5em;
 }
-
-/* line 299, ../scss/style.scss */
-.side-bar .reading {
-  border-bottom: 1px solid #f1f1f1;
+/* line 249, ../scss/style.scss */
+.main-content .underline h2 {
+  display: inline-block;
+  border-bottom: 1px solid #d1d35e;
 }
-/* line 302, ../scss/style.scss */
-.side-bar .book-post {
-  text-align: center;
+/* line 254, ../scss/style.scss */
+.main-content .social {
+  padding: 1em 0em;
 }
-/* line 304, ../scss/style.scss */
-.side-bar .book-post img {
-  width: 70%;
-  max-width: 200px;
-  margin: 0em 1em 1em 1em;
-  border: 1px solid #f1f1f1;
+/* line 256, ../scss/style.scss */
+.main-content .social p {
+  margin: 1.5em;
 }
-/* line 310, ../scss/style.scss */
-.side-bar .book-post p {
-  width: 60%;
+/* line 259, ../scss/style.scss */
+.main-content .social a {
+  display: inline-block;
+  margin: 0;
+  width: 50px;
+}
+/* line 264, ../scss/style.scss */
+.main-content .social img {
+  max-width: 50px;
   margin: 0 auto;
-  line-height: 1.5em;
-}
-/* line 316, ../scss/style.scss */
-.side-bar .twitter-post {
-  text-align: center;
-}
-/* line 320, ../scss/style.scss */
-.side-bar .media-post img {
-  display: block;
-  max-width: 200px;
-  width: 90%;
-  margin: 0 auto;
-}
-
-/* line 328, ../scss/style.scss */
-footer {
-  margin-top: 10em;
-  padding: 5em 0em;
-  background-color: #232323;
-}
-/* line 332, ../scss/style.scss */
-footer img {
-  display: block;
-  width: 30%;
-  margin: 0 auto;
-  max-width: 120px;
-}
-/* line 338, ../scss/style.scss */
-footer p {
-  margin: 1.5em 0em;
-  color: grey;
-  padding: 0;
-  text-align: center;
-  font-size: 1.3em;
-  font-style: italic;
-}
-/* line 346, ../scss/style.scss */
-footer span {
-  color: grey;
-  font-size: 2.4em;
-}
-/* line 350, ../scss/style.scss */
-footer nav {
-  width: 50%;
-  margin: 0 auto;
-}
-/* line 353, ../scss/style.scss */
-footer nav ul {
-  padding: 0;
-}
-/* line 356, ../scss/style.scss */
-footer nav a {
-  display: block;
-  color: #d1d35e;
-  font-weight: 600;
-  text-align: center;
-  padding: 9px 0px;
-  font-size: 1.2em;
 }
 
 @media screen and (min-width: 680px) {
-  /* line 368, ../scss/style.scss */
-  .navigation {
-    padding: 15px 0px;
-  }
-  /* line 370, ../scss/style.scss */
-  .navigation .mobile-icon {
-    display: none;
-  }
-  /* line 373, ../scss/style.scss */
-  .navigation nav {
-    display: block;
-    text-align: center;
-  }
-  /* line 377, ../scss/style.scss */
-  .navigation ul {
-    padding: 0;
-  }
-  /* line 380, ../scss/style.scss */
-  .navigation li {
-    display: inline-block;
-    width: 15%;
-    text-align: center;
-    vertical-align: middle;
-  }
-  /* line 386, ../scss/style.scss */
-  .navigation a {
-    color: white;
-    padding: 10px;
-  }
-  /* line 390, ../scss/style.scss */
-  .navigation .trademark {
-    position: initial;
-    width: 25%;
-    max-width: 60px;
-  }
-
-  /* line 398, ../scss/style.scss */
-  .main-content .thinking p {
+  /* line 276, ../scss/style.scss */
+  .main-content .blog p {
     width: 80%;
   }
-  /* line 402, ../scss/style.scss */
-  .main-content .thinking.sub-page {
-    width: 100%;
-    margin: 0 auto;
-  }
-  /* line 407, ../scss/style.scss */
+  /* line 281, ../scss/style.scss */
   .main-content .main-title h3 {
     font-size: 2em;
   }
-  /* line 410, ../scss/style.scss */
+  /* line 284, ../scss/style.scss */
   .main-content .main-title h2 {
     font-size: 4em;
   }
-  /* line 415, ../scss/style.scss */
+  /* line 289, ../scss/style.scss */
   .main-content .post-title h2 {
     width: 85%;
     margin: 1em auto;
     font-size: 2em;
   }
 
-  /* line 423, ../scss/style.scss */
+  /* line 297, ../scss/style.scss */
   footer a:hover {
     opacity: 0.8;
   }
 }
 @media screen and (min-width: 1000px) {
-  /* line 429, ../scss/style.scss */
+  /* line 303, ../scss/style.scss */
   .wrapper {
     width: 95%;
   }
 
-  /* line 432, ../scss/style.scss */
+  /* line 306, ../scss/style.scss */
   .main-content {
     margin: 4em auto;
   }
-  /* line 434, ../scss/style.scss */
-  .main-content .thinking {
+  /* line 308, ../scss/style.scss */
+  .main-content .blog {
     width: 66%;
     float: left;
     border-bottom: none;
   }
-  /* line 438, ../scss/style.scss */
-  .main-content .thinking p {
+  /* line 312, ../scss/style.scss */
+  .main-content .blog p {
     width: 80%;
   }
-  /* line 442, ../scss/style.scss */
+  /* line 316, ../scss/style.scss */
   .main-content a.post {
     margin: 8em 0;
-  }
-  /* line 446, ../scss/style.scss */
-  .main-content .side-bar {
-    margin-left: 5%;
-    width: 28%;
-    float: left;
-    padding: 0 5%;
-    border-left: 1px solid #f1f1f1;
-  }
-  /* line 455, ../scss/style.scss */
-  .main-content .side-bar .sharing {
-    border: none;
-  }
-  /* line 459, ../scss/style.scss */
-  .main-content .side-bar .book-post img {
-    width: 50%;
-  }
-  /* line 462, ../scss/style.scss */
-  .main-content .side-bar .book-post p {
-    width: 90%;
-  }
-
-  /* line 470, ../scss/style.scss */
-  footer nav {
-    margin-top: 2em;
-  }
-  /* line 473, ../scss/style.scss */
-  footer ul {
-    text-align: center;
-  }
-  /* line 477, ../scss/style.scss */
-  footer li {
-    display: inline-block;
-    padding: 0 20px;
   }
 }
