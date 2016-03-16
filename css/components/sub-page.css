@@ -86,26 +86,27 @@
     font-size: 4em;
     width: 85%;
     margin: 1em auto;
+    max-width: 1000px;
   }
-  /* line 88, ../../scss/components/sub-page.scss */
+  /* line 89, ../../scss/components/sub-page.scss */
   .page p {
     width: 85%;
   }
 
-  /* line 92, ../../scss/components/sub-page.scss */
+  /* line 93, ../../scss/components/sub-page.scss */
   .book-post {
     width: 70%;
   }
-  /* line 94, ../../scss/components/sub-page.scss */
+  /* line 95, ../../scss/components/sub-page.scss */
   .book-post h2 {
     font-size: 3em;
     text-align: center;
   }
-  /* line 98, ../../scss/components/sub-page.scss */
+  /* line 99, ../../scss/components/sub-page.scss */
   .book-post img {
     max-width: 275px;
   }
-  /* line 101, ../../scss/components/sub-page.scss */
+  /* line 102, ../../scss/components/sub-page.scss */
   .book-post p {
     margin: 1em auto;
   }

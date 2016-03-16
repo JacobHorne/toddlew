@@ -58,7 +58,7 @@
 
 			<!--POSTS GO HERE FROM WORDPRESS -->
 
-			<a href="#" class="post">
+			<a href="page.php" class="post">
 				<div class="post-date">
 					<p>March 21</p>
 				</div>
@@ -98,7 +98,7 @@
 					<h2>Reading</h2>
 				</div>
 
-				<div class="book-post">
+				<div class="book-post unique">
 					<!--Book Feed-->
 					<a href="#">
 						<img src="img/rise-of-robots.jpg" alt"Picture of the book Rise of the Robots">
@@ -116,9 +116,7 @@
 				<div class="twitter-post">
 					<!--Book Feed-->
 					<a href="#">
-						<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-						xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-						xxxxxxxxxxxxxxxxxxx</p>
+						<p>LOREM ISPUM qlwd dlknql knqwklndkqwndlqwndqwd wdqwszlxknzk</p>
 					</a>
 				</div>
 			</div>

@@ -6,9 +6,9 @@
 }
 /* line 12, ../scss/components/sidebar.scss */
 .side-bar .book-post img {
-  width: 70%;
+  width: 80%;
   max-width: 200px;
-  margin: 0em 1em 1em 1em;
+  margin: 0em auto 1.5em auto;
   border: 1px solid #f1f1f1;
 }
 /* line 18, ../scss/components/sidebar.scss */
@@ -44,7 +44,7 @@
   }
   /* line 50, ../scss/components/sidebar.scss */
   .side-bar .book-post img {
-    width: 50%;
+    width: 70%;
   }
   /* line 53, ../scss/components/sidebar.scss */
   .side-bar .book-post p {
@@ -337,26 +337,27 @@ footer nav a {
     font-size: 4em;
     width: 85%;
     margin: 1em auto;
+    max-width: 1000px;
   }
-  /* line 88, ../scss/components/sub-page.scss */
+  /* line 89, ../scss/components/sub-page.scss */
   .page p {
     width: 85%;
   }
 
-  /* line 92, ../scss/components/sub-page.scss */
+  /* line 93, ../scss/components/sub-page.scss */
   .book-post {
     width: 70%;
   }
-  /* line 94, ../scss/components/sub-page.scss */
+  /* line 95, ../scss/components/sub-page.scss */
   .book-post h2 {
     font-size: 3em;
     text-align: center;
   }
-  /* line 98, ../scss/components/sub-page.scss */
+  /* line 99, ../scss/components/sub-page.scss */
   .book-post img {
     max-width: 275px;
   }
-  /* line 101, ../scss/components/sub-page.scss */
+  /* line 102, ../scss/components/sub-page.scss */
   .book-post p {
     margin: 1em auto;
   }
@@ -695,5 +696,17 @@ form textarea {
   /* line 315, ../scss/style.scss */
   .main-content a.post {
     margin: 8em 0;
+  }
+
+  /* line 320, ../scss/style.scss */
+  .hero .hero-overlay {
+    position: relative;
+    top: 30%;
+    left: auto;
+    right: auto;
+  }
+  /* line 325, ../scss/style.scss */
+  .hero .hero-overlay h1 {
+    font-size: 6em;
   }
 }
