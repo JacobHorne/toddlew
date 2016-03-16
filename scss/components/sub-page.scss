@@ -5,44 +5,101 @@
 /*************************************************************************/
 
 .center{
-    width: 90%;
-    margin: 4em auto 0 auto;
+    width: 100%;
+    margin: 8em auto 0 auto;
     a{
         display:block;
     }
     
     img{
         display: block;
-        width:100%;
         margin: auto;
-        max-width: 200px;
     }
     p{
-        width:80%;
         margin: 0 auto;
+        line-height: 1.5em;
     }
 }
+.page{
+    h2{
+        text-align:center;
+        font-size: 2.5em;
+    }
+    p{
+        width:100%;
+    }
+}
+.book-post{
+    width:80%;
+    margin:2em auto;
+    h2{
+        font-size: 1.5em;
+        text-align:center;
+    }
+    img{
+        display: block;
+        max-width: 225px;
+    }
+    p{
+        margin:1em auto;
+        max-width: 225px;
+    }
+}
+
 @media screen and (min-width: 680px) {
     
     .center{
-    width: 75%;
-    margin: 10em auto 0 auto;
-        img{
-            width: 60%;
-            max-width: 300px;
+        width: 100%;
+        margin: 10em auto 0 auto;
+    }
+    .page{
+        h2{
+            font-size: 3em;
+            text-align:center;
         }
         p{
-            width:80%;
         }
+    }
+}
+.book-post{
+    width:80%;
+    margin:2em auto;
+    img{
+    }
+    p{
+        margin:1em auto;
     }
 }
 
 @media screen and (min-width: 1000px) {
 	
     .center{
-    width: 65%;
-    margin: 10em auto 0 auto;
+        width: 85%;
+        margin: 8em auto 0 auto;
+            img{
+            }
+        }
+    .page{
+        h2{
+            font-size: 4em;
+            width: 85%;
+            margin: 1em auto;
+        }
+        p{
+            width:85%;
+        }
+    }
+    .book-post{
+        width:70%;
+        h2{
+            font-size: 3em;
+            text-align:center;
+        }
         img{
+            max-width: 275px;
+        }
+        p{
+            margin:1em auto;
         }
     }
 }

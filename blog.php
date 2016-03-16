@@ -44,7 +44,7 @@
 
 			<!--POSTS GO HERE FROM WORDPRESS -->
 
-			<a href="#" class="post">
+			<a href="page.php" class="post">
 				<div class="post-date">
 					<p>March 21</p>
 				</div>
@@ -70,7 +70,7 @@
 				</div>
 
 				<div class="post-title">
-					<h2>The feds aren’t ready for the future of self-driving cars. Open Source Reigns</h2>
+					<h2></h2>
 				</div>
 			</a>
 			<a href="#" class="post">

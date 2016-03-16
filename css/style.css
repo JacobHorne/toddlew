@@ -123,7 +123,7 @@
   position: absolute;
   top: 20px;
   left: 50%;
-  width: 20%;
+  width: 50%;
   max-width: 30px;
 }
 
@@ -182,7 +182,7 @@
   /* line 110, ../scss/components/navigation.scss */
   .navigation .trademark {
     position: initial;
-    width: 25%;
+    width: 40%;
     max-width: 60px;
   }
 }
@@ -253,8 +253,8 @@ footer nav a {
 /*************************************************************************/
 /* line 7, ../scss/components/sub-page.scss */
 .center {
-  width: 90%;
-  margin: 4em auto 0 auto;
+  width: 100%;
+  margin: 8em auto 0 auto;
 }
 /* line 10, ../scss/components/sub-page.scss */
 .center a {
@@ -263,37 +263,102 @@ footer nav a {
 /* line 14, ../scss/components/sub-page.scss */
 .center img {
   display: block;
-  width: 100%;
   margin: auto;
-  max-width: 200px;
 }
-/* line 20, ../scss/components/sub-page.scss */
+/* line 18, ../scss/components/sub-page.scss */
 .center p {
-  width: 80%;
   margin: 0 auto;
+  line-height: 1.5em;
+}
+
+/* line 24, ../scss/components/sub-page.scss */
+.page h2 {
+  text-align: center;
+  font-size: 2.5em;
+}
+/* line 28, ../scss/components/sub-page.scss */
+.page p {
+  width: 100%;
+}
+
+/* line 32, ../scss/components/sub-page.scss */
+.book-post {
+  width: 80%;
+  margin: 2em auto;
+}
+/* line 35, ../scss/components/sub-page.scss */
+.book-post h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+/* line 39, ../scss/components/sub-page.scss */
+.book-post img {
+  display: block;
+  max-width: 225px;
+}
+/* line 43, ../scss/components/sub-page.scss */
+.book-post p {
+  margin: 1em auto;
+  max-width: 225px;
 }
 
 @media screen and (min-width: 680px) {
-  /* line 27, ../scss/components/sub-page.scss */
+  /* line 51, ../scss/components/sub-page.scss */
   .center {
-    width: 75%;
+    width: 100%;
     margin: 10em auto 0 auto;
   }
-  /* line 30, ../scss/components/sub-page.scss */
-  .center img {
-    width: 60%;
-    max-width: 300px;
-  }
-  /* line 34, ../scss/components/sub-page.scss */
-  .center p {
-    width: 80%;
+
+  /* line 56, ../scss/components/sub-page.scss */
+  .page h2 {
+    font-size: 3em;
+    text-align: center;
   }
 }
+/* line 64, ../scss/components/sub-page.scss */
+.book-post {
+  width: 80%;
+  margin: 2em auto;
+}
+/* line 69, ../scss/components/sub-page.scss */
+.book-post p {
+  margin: 1em auto;
+}
+
 @media screen and (min-width: 1000px) {
-  /* line 42, ../scss/components/sub-page.scss */
+  /* line 76, ../scss/components/sub-page.scss */
   .center {
-    width: 65%;
-    margin: 10em auto 0 auto;
+    width: 85%;
+    margin: 8em auto 0 auto;
+  }
+
+  /* line 83, ../scss/components/sub-page.scss */
+  .page h2 {
+    font-size: 4em;
+    width: 85%;
+    margin: 1em auto;
+  }
+  /* line 88, ../scss/components/sub-page.scss */
+  .page p {
+    width: 85%;
+  }
+
+  /* line 92, ../scss/components/sub-page.scss */
+  .book-post {
+    width: 70%;
+  }
+  /* line 94, ../scss/components/sub-page.scss */
+  .book-post h2 {
+    font-size: 3em;
+    text-align: center;
+  }
+  /* line 98, ../scss/components/sub-page.scss */
+  .book-post img {
+    max-width: 275px;
+  }
+  /* line 101, ../scss/components/sub-page.scss */
+  .book-post p {
+    margin: 1em auto;
   }
 }
 /***** CLEARFIX is applied to the parent of floated elements *************/
@@ -491,50 +556,50 @@ form textarea {
   background-position: center center;
 }
 
-/* line 190, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 .main-content .blog {
   margin-top: 3em;
 }
-/* line 192, ../scss/style.scss */
+/* line 191, ../scss/style.scss */
 .main-content .blog div {
   margin: 0 auto;
   width: 100%;
 }
-/* line 196, ../scss/style.scss */
+/* line 195, ../scss/style.scss */
 .main-content .blog img {
   display: block;
   max-width: 200px;
   margin: 0 auto;
 }
-/* line 201, ../scss/style.scss */
+/* line 200, ../scss/style.scss */
 .main-content .blog p {
   line-height: 1.5em;
   margin: 2em auto;
   font-size: 1.2em;
   font-weight: 300;
 }
-/* line 208, ../scss/style.scss */
+/* line 207, ../scss/style.scss */
 .main-content .main-title {
   margin: 3em 0em;
   text-align: center;
 }
-/* line 211, ../scss/style.scss */
+/* line 210, ../scss/style.scss */
 .main-content .main-title h3 {
   color: #c5c7c6;
   margin: 0;
   font-size: 1.6em;
 }
-/* line 216, ../scss/style.scss */
+/* line 215, ../scss/style.scss */
 .main-content .main-title h2 {
   margin: 0;
   font-size: 3.5em;
 }
-/* line 221, ../scss/style.scss */
+/* line 220, ../scss/style.scss */
 .main-content a {
   display: block;
   margin-bottom: 6em;
 }
-/* line 226, ../scss/style.scss */
+/* line 225, ../scss/style.scss */
 .main-content .post-date {
   width: 40%;
   max-width: 100px;
@@ -542,92 +607,92 @@ form textarea {
   border-top: 1px solid #d1d35e;
   border-bottom: 1px solid #d1d35e;
 }
-/* line 232, ../scss/style.scss */
+/* line 231, ../scss/style.scss */
 .main-content .post-date p {
   text-align: center;
-  margin: 0.5em;
+  margin: 0.5em auto;
 }
-/* line 239, ../scss/style.scss */
+/* line 238, ../scss/style.scss */
 .main-content .post-title {
   text-align: center;
 }
-/* line 241, ../scss/style.scss */
+/* line 240, ../scss/style.scss */
 .main-content .post-title h2 {
   font-weight: 300;
   font-family: 'Raleway';
   font-size: 1.5em;
 }
-/* line 249, ../scss/style.scss */
+/* line 248, ../scss/style.scss */
 .main-content .underline h2 {
   display: inline-block;
   border-bottom: 1px solid #d1d35e;
 }
-/* line 254, ../scss/style.scss */
+/* line 253, ../scss/style.scss */
 .main-content .social {
   padding: 1em 0em;
 }
-/* line 256, ../scss/style.scss */
+/* line 255, ../scss/style.scss */
 .main-content .social p {
   margin: 1.5em;
 }
-/* line 259, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 .main-content .social a {
   display: inline-block;
   margin: 0;
   width: 50px;
 }
-/* line 264, ../scss/style.scss */
+/* line 263, ../scss/style.scss */
 .main-content .social img {
   max-width: 50px;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 680px) {
-  /* line 276, ../scss/style.scss */
+  /* line 275, ../scss/style.scss */
   .main-content .blog p {
     width: 80%;
   }
-  /* line 281, ../scss/style.scss */
+  /* line 280, ../scss/style.scss */
   .main-content .main-title h3 {
     font-size: 2em;
   }
-  /* line 284, ../scss/style.scss */
+  /* line 283, ../scss/style.scss */
   .main-content .main-title h2 {
     font-size: 4em;
   }
-  /* line 289, ../scss/style.scss */
+  /* line 288, ../scss/style.scss */
   .main-content .post-title h2 {
     width: 85%;
     margin: 1em auto;
     font-size: 2em;
   }
 
-  /* line 297, ../scss/style.scss */
+  /* line 296, ../scss/style.scss */
   footer a:hover {
     opacity: 0.8;
   }
 }
 @media screen and (min-width: 1000px) {
-  /* line 303, ../scss/style.scss */
+  /* line 302, ../scss/style.scss */
   .wrapper {
     width: 95%;
   }
 
-  /* line 306, ../scss/style.scss */
+  /* line 305, ../scss/style.scss */
   .main-content {
     margin: 4em auto;
   }
-  /* line 308, ../scss/style.scss */
+  /* line 307, ../scss/style.scss */
   .main-content .blog {
     width: 66%;
     float: left;
     border-bottom: none;
   }
-  /* line 312, ../scss/style.scss */
+  /* line 311, ../scss/style.scss */
   .main-content .blog p {
     width: 80%;
   }
-  /* line 316, ../scss/style.scss */
+  /* line 315, ../scss/style.scss */
   .main-content a.post {
     margin: 8em 0;
   }

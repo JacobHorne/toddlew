@@ -70,7 +70,7 @@
   position: absolute;
   top: 20px;
   left: 50%;
-  width: 20%;
+  width: 50%;
   max-width: 30px;
 }
 
@@ -129,7 +129,7 @@
   /* line 110, ../../scss/components/navigation.scss */
   .navigation .trademark {
     position: initial;
-    width: 25%;
+    width: 40%;
     max-width: 60px;
   }
 }
