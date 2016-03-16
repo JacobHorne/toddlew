@@ -42,7 +42,7 @@
 .navigation{
     position: fixed;
     top:0;
-    height: 60px;
+    height: 75px;
     width:100%;
     transition: top 0.2s ease-in-out;
     z-index:5;
@@ -68,7 +68,7 @@
     }
 }
 .scrollUp {
-  top: -61px; // same as header height. use variables in LESS/SASS
+  top: -76px; // same as header height. use variables in LESS/SASS
 }
 
 .header-background{

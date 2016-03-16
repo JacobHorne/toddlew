@@ -98,14 +98,14 @@
 					<h2>Reading</h2>
 				</div>
 
-				<div class="book-post unique">
+				<div class="book-post">
 					<!--Book Feed-->
 					<a href="#">
 						<img src="img/rise-of-robots.jpg" alt"Picture of the book Rise of the Robots">
 						<p>Click and be taken to a blog post about the book I regularly think about many of the issues brought up in this must-read book, and it's vital people begin to do so as well. </p>
 					</a>
 				</div>
-				<button>MORE</button>
+				<a href="reading.php"><button>MORE</button></a>
 			</div>
 
 			<div class="sharing">

@@ -97,7 +97,7 @@
 .navigation {
   position: fixed;
   top: 0;
-  height: 60px;
+  height: 75px;
   width: 100%;
   transition: top 0.2s ease-in-out;
   z-index: 5;
@@ -129,7 +129,7 @@
 
 /* line 70, ../scss/components/navigation.scss */
 .scrollUp {
-  top: -61px;
+  top: -76px;
 }
 
 /* line 74, ../scss/components/navigation.scss */
@@ -360,6 +360,7 @@ footer nav a {
   /* line 102, ../scss/components/sub-page.scss */
   .book-post p {
     margin: 1em auto;
+    max-width: 275px;
   }
 }
 /***** CLEARFIX is applied to the parent of floated elements *************/
@@ -598,7 +599,7 @@ form textarea {
 /* line 220, ../scss/style.scss */
 .main-content a {
   display: block;
-  margin-bottom: 6em;
+  margin: 3em auto;
 }
 /* line 225, ../scss/style.scss */
 .main-content .post-date {

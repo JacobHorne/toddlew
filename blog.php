@@ -99,7 +99,7 @@
 				</div>
 
 				<div class="post-title">
-					<h2>The feds aren’t ready for the future of self-driving cars. Open Source Reigns</h2>
+					<h2>Open Souce Technology for self driving automation</h2>
 				</div>
 			</a>
 			<button>MORE</button>
